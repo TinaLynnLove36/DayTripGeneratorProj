@@ -3,26 +3,124 @@
 <head>
     <title>Day Trip Generator</title>
     <style>
-        .highlight {
-          font-family: "Arial";
-          padding: 30px;
-        }
+      body, html {
+        height: 100%;
+  margin: auto;
+  margin-top: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("proj_background.jpg");
+
+  /* Full height */
+  height: 100%; 
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+    h1 {
     
-        .daytrip {
-          font-size: 64px;
-          color: #0099FF;
-        }
+      
+      position: absolute;
+      top: 100px;
+      left: 50px;
+      width: 100%;
+      margin: 0 auto;
+      color: #0B130B
+    }
+      
+     
+    
+    h2 {
+      text-align: center;
+      
+    }
+
+    .bt {
+   position: absolute;
+   left: 700px;
+  background-color: #627C62;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+ .butt {
+  
+   position: absolute;
+   left: 700px;
+  background-color: #627C62;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.color {
+  background-color: #566150;
+}
+
+#quoteDisplay {
+  text-align: center;
+  font-size: 18px;
+}
+
       </style>
 </head>
 <body>
-    <h1 id="bigMessage" class="highlight daytrip">Day Trip Generator</h1>
-    <div id="quoteDisplay">
+  <div class="bg"></div>
+  <div class=color>
+    <h1>Ready to Confront Death Defying Odds?</h1>
+    <br>
+    <br>
+    <br>
+    <h2>Keep Dreaming! But If You're Up For Getting Out For a Day, Click Below For Ideas!</h2>
+    <br>
+    <br>
+    <button onclick="result()" class="bt">Day Trip Ideas</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="quoteDisplay"></p>
+    <br>
+    <br>
+    <br>
+    <h2>Satisfied with the results? Click to Complete!</h2>
+    <br>
+    <br>
+    <br>
+    <button class="butt">Complete</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
-
-    </div>
-    <button onclick="result()">New Quote</button>
-    <h2>Satisfied with the results? Click below to mark complete!</h2>
-    <button>Complete</button>
     <script type="text/javascript" src="daytripgen.js"></script>
+    </div>
+  
 </body>
 </html>

@@ -32,7 +32,7 @@ function entertain() {
 //let dayTimeTransport = transport();
 //let dayTimeEntertain = entertain();
 function result() {
-    document.getElementById('quoteDisplay').innerHTML = (`You will be visiting ${place()} and eating at ${food()} for lunch, one of Florida's Premier top 5 Star restaruants! You will also have the pleasure of enjoying ${entertain()}! Expenses include travel by ${transport()}!`);
+    document.getElementById('quoteDisplay').innerHTML = (`You can visit ${place()} and have lunch at ${food()}, one of Florida's Premier top 5 Star restaurants! You can also travel by ${transport()} and experience ${entertain()}!`);
   
 }
 
